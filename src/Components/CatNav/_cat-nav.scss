@@ -1,0 +1,19 @@
+@import '../../style/scss/variables';
+@import '../../style/scss/mixins';
+
+.catnav-container{
+    max-width: 100%;
+    border-top: 1px solid #1e1e1e;
+    background-color: #444444;
+
+        li{
+            @include my-list;
+            padding: 1em;
+            margin: 0.5em 0.3em;
+                a{
+                    text-decoration: none;
+                    color: #fff;
+                    font-weight: $anchor-font;
+                }
+        }
+}

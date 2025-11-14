@@ -1,0 +1,17 @@
+
+.product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .product-container{
+        box-shadow: 3px 3px 20px lightgray;
+        text-align: center;
+            .product-rating{
+                i{
+                    color: gold;
+                    font-size: small;
+                }
+            }
+    }
+
+}

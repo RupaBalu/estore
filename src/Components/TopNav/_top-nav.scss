@@ -1,0 +1,64 @@
+@import '../../style/scss/variables';
+@import '../../style/scss/mixins';
+
+.header{
+  max-width: 100%;
+  box-shadow: 5px 5px 20px grey;
+}
+.brand{
+  color: white;
+  padding: 0.5rem;
+  margin-left: 1rem;
+  width: 20%;
+}
+.inp-container input{
+  display: inline-block;
+  width: 75%;
+  height: 2.5rem;
+  border: none;
+}
+.inp-container button{
+  width: 10%;
+  height: 2.5rem;
+  border: none;
+}
+.topnav-row div{
+  display: inline-block;
+}
+.dropdown{
+  width: 15%;
+}
+.dropdown select{
+  border: none;
+  height: 2.5rem;
+}
+.form-contro:focus{
+  border: none;
+}
+.login-container{
+  width: 15%;
+  color: white;
+  text-align: center;
+  margin: 1.7em 0.2em 0 0;
+}
+.login-container i, h5{
+  display: inline-block;
+  /* font-size: 15px; */
+
+}
+.login-container a{
+  text-decoration: none;
+}
+.user-icon{
+  margin-right: 1rem;
+  font-size: $font-icon;
+}
+.cart-container{
+  color: white;
+  width: 10%;
+  margin: 1.7em 0.2em 0 0;
+}
+.cart-container li{
+  display: inline-block;
+  margin-right: 1em;
+}

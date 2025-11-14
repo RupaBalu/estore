@@ -1,0 +1,29 @@
+@import '../../../style/scss/mixins';
+
+
+@include list-style;
+
+.side-ctr{
+    height: 28em;
+    border-radius: 1em;
+    box-shadow: 5px 5px 20px grey;
+    margin-top: 1em;
+    padding: 0.6em;
+
+    .section-title{
+        padding: 0.5em;
+    }
+
+    .individual-category{
+        
+        ul{
+            list-style-type: none;
+            text-align: center;
+            padding: 0;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+        }
+    }
+}

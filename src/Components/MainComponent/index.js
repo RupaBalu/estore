@@ -3,7 +3,7 @@ import Products from "./Products";
 
 export default function MainComponent(){
     return (
-        <div className="p-1 row">
+        <div className="p-1 row" style={{"--bs-gutter-x": 0}}>
             <div className="col-lg-2 col-md-3 col-sm-4">
                 <SideNav />
             </div>
